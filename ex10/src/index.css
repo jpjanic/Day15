@@ -1,0 +1,116 @@
+html {
+  box-sizing: content-box;
+  font-size: 15px;
+}
+
+.google-image {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 6em;
+  margin-top: 2em;
+}
+
+.form-search {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 7em;
+}
+
+#form-search {
+  width: 35em;
+  padding: 0.7em;
+  border-radius: 20px;
+  border-color: rgb(233, 230, 230);
+}
+
+#nav_bar {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  margin-right: 15px;
+}
+
+#nav_bar {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#sign_in {
+  background-color: #3a75d4;
+  padding-left: 0.8em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-right: 0.8em;
+  border-radius: 5px;
+}
+
+#sign_in a {
+  color: #fff;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.nav-links a {
+  margin-right: 1em;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 8em;
+}
+
+button {
+  margin-right: 1em;
+  margin-left: 1em;
+  padding: 0.5em;
+  margin-top: 0.3em;
+  border-color:rgb(233, 230, 230);
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f1efee;
+  padding: 0.3em;
+  border-top: 2px solid #e4e1e1;
+}
+
+footer li a {
+  color: #707070;
+  padding: 1em;
+  font-size: 15px;
+}
+
+.footer-left {
+  display: flex;
+}
+
+.footer-right {
+  display: flex;
+  margin-right: 3.5em;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
